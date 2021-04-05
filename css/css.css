@@ -20,6 +20,7 @@ main{
     flex-direction: row;
 }
 
+
 li{
     list-style: none;
     display: flex;
@@ -76,8 +77,21 @@ a{
     text-decoration: none;
     
 }
+
+a.link{
+    display: inline-block;
+    height: 34px;
+    font-size: 15px;
+    overflow: hidden;
+    flex-wrap: nowrap;
+    text-overflow: ellipsis ;
+    word-wrap: break-word;
+    
+}
 p{
+
     font-size: 12px;
+   
 }
 img{
     width: 100%;
@@ -85,7 +99,9 @@ img{
 }
 
 .list_div{
-    margin: 14px 15px;
+    width: 100%;
+    box-sizing: border-box;
+    padding:  14px 15px;
    display: inline-block;
     
 }
